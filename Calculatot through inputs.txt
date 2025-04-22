@@ -94,7 +94,6 @@ var getPara=document.getElementById("para")
 var num1 = getInp.value;
   var num2 = getSec.value;
 
-  // Check if either input is not a number or is empty
   if (isNaN(num1) || isNaN(num2)) {
     alert("Please enter number");
   } 
